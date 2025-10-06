@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/Volumes/WD_BLACK/Coding/Project/CPP/Logger/cmake-build-debug/cmake_install.cmake",
-		"/Volumes/WD_BLACK/Coding/Project/CPP/Logger/cmake-build-debug/src/cmake_install.cmake",
-		"/Volumes/WD_BLACK/Coding/Project/CPP/Logger/cmake-build-debug/test/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
