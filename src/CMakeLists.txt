@@ -8,6 +8,4 @@ file(GLOB SOURCE_FILES "${PROJECT_SOURCE_DIR}/*.cpp")
 
 list(FILTER SOURCE_FILES EXCLUDE REGEX "\\._.*$")
 
-add_library(${LOGGER_MANAGER_LIB} SHARED ${SOURCE_FILES}
-        ../include/glogmessage.h
-        glogmessage.cpp)
+add_library(${LOGGER_MANAGER_LIB} SHARED ${SOURCE_FILES})

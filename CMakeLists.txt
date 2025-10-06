@@ -18,14 +18,13 @@ set(TEST test)
 add_subdirectory(src)
 add_subdirectory(test)
 
+# 打包库文件
 file(GLOB HEAD_FILES "${PROJECT_SOURCE_DIR}/include/*.h")
 list(FILTER HEAD_FILES EXCLUDE REGEX "\\._.*$")
-
 install(FILES
         ${HEAD_FILES}
         DESTINATION ${PROJECT_SOURCE_DIR}/package/logger/include
 )
-
 # 设置库文件安装路径
 install(TARGETS ${LOGGER_MANAGER_LIB}
         LIBRARY DESTINATION ${PROJECT_SOURCE_DIR}/package/logger/lib
