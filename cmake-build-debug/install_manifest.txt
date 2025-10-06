@@ -1,0 +1,4 @@
+/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/include/loggerfactory.h
+/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/include/loggermanger.h
+/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/include/spdlogmessage.h
+/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/lib/liblogger_manager.dylib

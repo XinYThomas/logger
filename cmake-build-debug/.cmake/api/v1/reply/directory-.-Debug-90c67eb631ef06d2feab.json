@@ -1,0 +1,64 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/include",
+			"paths" : 
+			[
+				"include/glogmessage.h",
+				"include/loggerfactory.h",
+				"include/loggermanger.h",
+				"include/spdlogmessage.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/Volumes/WD_BLACK/Coding/Project/CPP/Logger/package/logger/lib",
+			"paths" : 
+			[
+				"/Volumes/WD_BLACK/Coding/Project/CPP/Logger/lib/liblogger_manager.dylib"
+			],
+			"targetId" : "logger_manager::@145eef247bfb46b6828c",
+			"targetIndex" : 0,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
