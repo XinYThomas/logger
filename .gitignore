@@ -3,7 +3,7 @@ build/
 install/
 bin/
 lib/
-cmake-build-debug/
+cmake-build-debug/*
 
 # 编译输出
 *.o
