@@ -5,10 +5,10 @@ bin/
 lib/
 
 # CMake 生成的文件
+cmake-build-debug/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-cmake-build-debug/
 Makefile
 
 # 编译输出
@@ -19,6 +19,9 @@ Makefile
 *.dll
 *.a
 *.lib
+
+# mac 专属
+
 
 # IDE 配置文件
 .vscode/
